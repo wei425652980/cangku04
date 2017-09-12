@@ -1,0 +1,62 @@
+<nav>
+	<div>
+		<img src="img/jd_03.png" />
+		<img src="img/jd1_03.png" />
+		<input type="text" value="大疆超级品牌日 无人机直1" />
+	</div>
+	<span>登录</span>
+</nav>
+<!--最外层容器-->
+<div id="banner" class="swiper-container">
+	<!--项目容器-->
+	<ul class="swiper-wrapper">
+		<!--项目内容-->
+		<li class="swiper-slide"><img src="img/banner_1.jpg" alt="" /></li>
+		<li class="swiper-slide"><img src="img/banner_2.jpg" alt="" /></li>
+		<li class="swiper-slide"><img src="img/banner_3.jpg" alt="" /></li>
+		<li class="swiper-slide"><img src="img/banner_4.jpg" alt="" /></li>
+		<li class="swiper-slide"><img src="img/banner_1.jpg" alt="" /></li>
+	</ul>
+	<!--小圆点-->
+	<div class="swiper-pagination"></div>
+</div>
+<div class="fen">
+	<li ng-repeat="i in val">
+		<img ng-src="{{i.src}}">
+		<p>{{i.p}}</p>
+	</li>
+</div>
+<div class="xin">
+	<div class="nei">
+		<img src="img/jd_32.png" />
+		<b>抢</b>
+		<!--最外层容器-->
+		<div id="banner1" class="swiper-container">
+			<!--项目容器-->
+			<ul class="swiper-wrapper">
+				<!--项目内容-->
+				<li class="swiper-slide">京东潮流季，限量发售50%off</li>
+				<li class="swiper-slide">京东限购，三周年</li>
+				<li class="swiper-slide">撒个刚阿纲发给阿法狗阿法狗</li>
+			</ul>		
+</div>
+<span>|更多</span>
+</div>
+
+</div>
+
+<div class="miao">
+	<img src="img/jd_34.png">
+	<b>10点场</b>
+	<span>{{date | date:"HH":"UTC"}}</span>:<span>{{date | date:"mm"}}</span>:<span>{{date |date:"ss"}}</span>	
+	<div class="you">
+		<p>精选尖货轮番秒</p>
+		<img src="img/jd1_10.png" />
+	</div>
+</div>
+<div class="tu">
+	<li><img src="img/1.jpg"></li>
+	<li><img src="img/2.jpg"></li>
+	<li><img src="img/3.jpg"></li>
+	<li><img src="img/4.jpg"></li>
+</div> 
